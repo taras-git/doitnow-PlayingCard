@@ -20,6 +20,7 @@ struct PlayingCard: CustomStringConvertible
         var description: String {
             return rawValue
         }
+        
         case spades = "♠️"
         case hearts = "♥️"
         case diamonds = "♦️"
